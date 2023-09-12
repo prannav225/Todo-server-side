@@ -33,12 +33,13 @@ To get started with this server-side code, follow these steps:
 4. Start the server
    ```bash
    node server.js
+   
 ## API Endpoints
 
 - POST /todos: Create a new task.
 - GET /todos: Fetch all tasks.
 - DELETE /todos/:id: Delete a task by its ID.
-- 
+  
 ## Environment Variables
 
 MONGODB_URI: The connection URI for your MongoDB database.
